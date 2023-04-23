@@ -16,9 +16,11 @@ body {
 }
 
 .book-card {
+    display: block;
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem;
+    text-align: center;
 }
 
 .read-status-btn {
