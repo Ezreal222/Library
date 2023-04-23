@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#libraryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.read-status-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
